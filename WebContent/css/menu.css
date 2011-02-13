@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+
+div#menu-wrapper li {
+	cursor: pointer;
+	float: left;
+	height: 27px;
+	padding-top: 5px;
+}

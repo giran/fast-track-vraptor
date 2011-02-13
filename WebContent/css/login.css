@@ -1,0 +1,87 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: #DDD;
+}
+
+/* LABEL */
+form label {
+	color: #F9F9F9;
+	float: left;
+	font: bold 11px verdana;
+	margin-top: 3px;
+	width: 50px;
+}
+
+/* INPUT */
+input.button {
+	background-color: #4D4D4D;
+	border: 0 solid;
+	color: #F9F9F9;
+	cursor: pointer;
+	font: 11px verdana;
+	float: right;
+	height: 25px;
+	letter-spacing: .5px;
+    padding-bottom: 4px;
+	width: 60px;
+
+	border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-opera-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+form input[type="text"] {
+	border: 1px solid #BBB;
+	font: 12px verdana;
+	height: 20px;
+	margin-bottom: 5px;
+	width: 170px;
+
+	border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-opera-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+/* DIV */
+div#error {
+	background: url("../img/icone/exclamacao.png") no-repeat 5px 6px #FFAEAE;
+    color: #BC0000;
+    font: 12px verdana;
+    height: 21px;
+    margin-top: -1px;
+    padding-top: 6px;
+    position: absolute;
+    text-indent: 24px;
+    top: 214px;
+    width: 100%;
+}
+
+div#formulario {
+	left: 50%;
+	margin-left: -86px;
+	margin-top: 18px;
+	position: absolute;
+	width: 172px;
+}
+
+div#login-wrapper {
+	background-color: #888;
+	height: 160px;
+	position: absolute;
+	top: 240px;
+	width: 100%;
+}
+
+div#logo {
+	left: 50%;
+	margin-left: -70px;
+	position: absolute;
+	top: 100px;
+	font: bold 34px verdana;
+	width: 100px;
+}

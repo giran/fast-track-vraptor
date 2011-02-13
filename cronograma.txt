@@ -1,0 +1,109 @@
+O VRaptor é um framework MVC para aplicações web que trabalha com seus métodos de forma exposta e de maneira RESTFul.
+Vem conquistando o mercado pela sua curva de aprendizado, alta produtividade e testabilidade.
+
+Requisitos: Conhecimento básico de Java, JSP, HTML, JavaScript e SQL.
+
+• Conhecendo o VRaptor 3
+	- Suas propostas;
+	- Suas vantagens;
+	- Suas desvantagens.
+
+• Configurando um Projeto
+	- Como criar o projeto no Eclipse;
+	- Como configurar os filtros do VRaptor;
+
+• Projeto em 3 Camadas e o início da arquitetura
+	- Organizando o sistema em pacotes;
+	- A convenção das views;
+	- Criando um controller com métodos expostos;
+	- Primeira configuração de @Path;
+	- Criando a camada de Modelo;
+	- Adicionando a camada extra do DAO;
+
+• Componentes e a Injeção de Dependência
+	- Como criar componentes;
+	- Usando Injeção de Dependência.
+
+• Trabalhando com o Result
+	- Conhecendo o Result;
+	- Entendendo os redirecionamentos;
+	- Conhecendo seus métodos;
+	- Recuperando dados via EL.
+
+• Integração e conversões de View e Controller
+	- Como criar formulários;
+	- Entendendo as conversões.
+	
+• Conhecendo as Classes Genéricas
+	- Como fazer o reuso de código através das classes genéricas;
+	- Facilitando a persistência de objetos através do polimorfismo.
+
+• Tornando o Sistema Mais REST
+	- Entendendo o HTTP method;
+	- Trabalhando com diferente tipos de requisições;
+	- Convençionando as URI;
+	- Configurando prioridades;
+
+• Configurando a Persistência Com a JPA
+	- Como configurar a JPA;
+	- Como registrar componentes opcionais (providers);
+	- Como automatizar as transações.
+
+• Trabalhando com os Escopo
+	- Conhecendo os diferentes tipos de escopos;
+	- Manipulando o escopo de sessão.
+
+• Criando Interceptors
+	- Como fazer filtros entre as requisições;
+	- Como manipular o fluxo.
+
+• Trabalhando com Templates
+	- Conhecendo o Sitemesh;
+	- Criando o mapeamento;
+	- Espeficicando pattern;
+	- Adicionando exceções.
+ 	
+• Trabalhando com Listas de Dados
+	- Entendendo a conversão automática;
+	- Como trabalhar com arrays;
+	- Como trabalhar com listas;
+	- Conhecendo algumas convenções;
+	- Manipulando listas com JSTL.
+
+• Criando um Controle de Segurança
+ 	- Conhecendo o ENUM;
+	- Conhecendo a Annotation do Java;
+	- Configurando e anotando métodos e classes.
+	- Controlando acesso a métodos;
+	- Controlando acesso a classes;
+	- Manipulando a sequência dos interceptors.
+
+• Configurações Avançadas de Path
+	- Formatando a URI;
+	- URIs dinâmicas;
+	- Criando Friendly URI;
+	- Ajustando prioridades;
+	- Criando rotas de redirecionamento.
+
+• Trabalhando com Ajax
+	- Como fazer requisições assíncronas usando jQuery;
+	- Conhecendo o JSON;
+	- Como serializar dados com o auxílio do VRaptor e o XStream;
+	- Como manipular dados em formato JSON.
+
+• Fazendo Download e Upload
+	- Trabalhando com download;
+	- Trabalhando com upload;
+
+• Personalizando Componentes
+	- Personalizando componentes do VRaptor;
+
+• Trabalhando com Validações do VRaptor
+	- Usando o Validator da forma clássica;
+	- Usando o Validator da forma fluente;
+	- Integrando I18N e parametrização;
+	- Naturalizando a vaidação com o Hamcrest;
+	- Validando com o Hibernate Validator.
+
+• Projeto Final Desenvolvido Pelos Alunos
+	- Criação de um projeto pelos alunos para sanar dúvidas e concretizar o aprendizado.

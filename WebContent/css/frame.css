@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+
+div#conteudo {
+	float: left;
+	font: 9px verdana;
+	padding-left: 40px;
+	padding-top: 20px;
+	min-height: 460px;
+	width: 1225px;
+}
+
+div#menu {
+	background-color: #4D4D4D;
+	height: 30px;
+	width: 100%;
+}
+
+div#rodape {
+	background-color: #CCC;
+	clear: both;
+	height: 150px;
+	width: 100%;
+}
+
+div#topo {
+	background-color: #888;
+	height: 110px;
+	width: 100%;
+}
